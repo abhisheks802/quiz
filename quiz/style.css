@@ -1,0 +1,240 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial;
+}
+.instructions{
+    height: 100vh;
+    background: #58016f;
+    overflow: hidden;
+    color: white;
+}
+.inside-instructions{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    margin: 44px auto;
+}
+.instructions h2{
+    text-align: center;
+    font-size: 4vh;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+.instructions h3{
+    text-align: center;
+    font-size: 3vh;
+    padding-bottom: 30px;
+    line-height: 6vh;
+}
+.instructions button{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+}
+.questions{
+    height: 100vh;
+    background-color: #016e85;
+    overflow: hidden;
+}
+form{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    margin: 44px auto;
+    text-align: left;
+    overflow: hidden;
+}
+form h2{
+    display: block;
+    color: white;
+    font-size: 4vh;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+form h3{
+    display: block;
+    color: white;
+    padding-left: 15px;
+    font-size: 3vh;
+    line-height: 4vh;
+}
+form p{
+    display: inline-block;
+    color: white;
+    font-size: 3vh;
+    padding-left: 7px;
+    margin-top: 22px;
+    margin-bottom: 14px;
+}
+input{
+    color: black;
+    display: inline-block;
+    margin-left: 30px;
+}
+button{
+    display: block;
+    padding: 10px;
+    background: rgba(0,0,0,0.6);
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+    margin: 10px auto 0 auto;
+    font-size: 15px;
+}
+button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.allans{
+    height: 100vh;
+    background-color: #58016f;
+    overflow: hidden;
+}
+.allans h1{
+    display:block;
+    color: white;
+    font-size: 4vh;
+    margin-bottom: 18px;
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: 3px 3px 10px black;
+}
+.allans h3{
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 2vh;
+    line-height: 2vh;
+    text-align: center;
+}
+.allans button{
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+}
+.answers-display{
+    margin: 200px auto;
+}
+.answers{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1000px){
+    form h3{
+        padding-left: 80px;
+    }
+    input{
+         margin-left: 100px;
+    }
+    button{
+        width: 200px;
+        height: 60px;
+    }
+    .allans button{
+        width: 200px;
+        height: 60px;
+        font-size: 17px;
+    }
+}
